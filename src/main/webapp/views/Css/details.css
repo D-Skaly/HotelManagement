@@ -1,0 +1,354 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .auth-buttons a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .auth-buttons .sign-in {
+    background-color: #333;
+  }
+  
+  .auth-buttons .book-now {
+    background-color: #d9534f;
+  }
+
+
+.confirmation-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.check-in-out {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.room-details {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.room-details h3 {
+    margin: 0 0 10px;
+}
+
+.room-details p {
+    margin: 5px 0;
+}
+
+.apply-code {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.apply-code input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-code button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+
+.info-boxes {
+    margin-top: 20px;
+}
+
+.info-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-box img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.form-section {
+    flex: 2;
+}
+
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group small {
+    color: #777;
+    margin-top: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.room-info {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.room-info h3 {
+    flex-basis: 100%;
+    margin: 0 0 20px;
+}
+
+.room-info img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.room-description {
+    flex: 1;
+}
+
+.room-description p {
+    margin: 5px 0;
+}
+
+.next-button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  footer .subscribe {
+    background-color: #333;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  footer .subscribe h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  footer .subscribe p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  footer .subscribe-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .subscribe-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  footer .subscribe-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  footer .footer-logo img {
+    height: 50px;
+  }
+  
+  footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  footer .footer-link-column {
+    text-align: left;
+  }
+  
+  footer .footer-link-column h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer .footer-link-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .footer-link-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer .footer-link-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer .footer-link-column ul li a:hover {
+    text-decoration: underline;
+  }

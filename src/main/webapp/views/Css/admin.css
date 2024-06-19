@@ -1,0 +1,133 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .auth-buttons a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .auth-buttons .hi {
+    background-color: #333;
+  }
+  
+  .auth-buttons .logOut {
+    background-color: #d9534f;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    background: linear-gradient(to bottom, #ffcccc, #b3d9ff);
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar button {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main img {
+    width: 100%;
+    height: auto;
+}
+.main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.main th, .main td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.main th {
+    background-color: #f2f2f2;
+}

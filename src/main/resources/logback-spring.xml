@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+   <!-- Console Appender -->
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+      <encoder>
+         <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+      </encoder>
+   </appender> -->
+
+   <!-- File Appender -->
+   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+      <file>src/main/resources/logs/app.log</file>
+      <encoder>
+         <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+      </encoder>
+   </appender>
+
+   <!-- Define loggers for specific controllers -->
+   <logger name="com.Java5.CustomerController.SignInController" level="INFO">
+      <appender-ref ref="FILE"/>
+   </logger>
+      <logger name="com.Java5.CustomerController.SignUpController" level="INFO">
+      <appender-ref ref="FILE"/>
+   </logger>
+         <logger name="com.Java5.CustomerController.AboutController" level="INFO">
+      <appender-ref ref="FILE"/>
+   </logger>
+   
+         <logger name="com.Java5.CustomerController.BookingRoomController" level="INFO">
+      <appender-ref ref="FILE"/>
+   </logger>
+   
+
+
+   <!-- Root logger -->
+   <root level="INFO">
+      <appender-ref ref="STDOUT"/>
+   </root>
+
+</configuration>
